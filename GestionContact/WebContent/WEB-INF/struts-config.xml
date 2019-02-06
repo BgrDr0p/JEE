@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+<form-beans>
+<form-bean name="AddContactValidationForm" type="actionForm.AddContactValidationForm"/>
+<form-bean name="SupprimerContactValidationForm" type="actionForm.SupprimerContactValidationForm" />
+</form-beans>
+<action-mappings>
+
+<action path="/ContactCreation" forward="/pages/ContactCreation.jsp" />
+<action path="/AddContact" type="servletAction.AddContact" name="AddContactValidationForm" scope="request" input="/pages/ContactCreation.jsp">
+<forward name="success" path="/pages/succesAddContact.jsp" />
+<forward name="error" path="/pages/errorAddContact.jsp" />
+</action>
+
+<action path="/AfficherContact" />
+<action path="/listeContact" scope="session" type="servletAction.AfficherContact">
+<forward name="success" redirect="true" path="/pages/AfficherContact.jsp" />
+</action>
+
+<action path="/ContactSuppresion" forward="/pages/SupprimerContact.jsp" />
+<action path="/SupprimerContact" type="servletAction.SupprimerContact" name="SupprimerContactValidationForm" scope="request" input="/pages/SupprimerContact.jsp">
+<forward name="success" path="/pages/succesAddContact.jsp" />
+<forward name="error" path="/pages/errorAddContact.jsp" />
+</action>
+
+
+
+
+
+
+
+</action-mappings>
+
+<!-- ========== Ressources de definitions de messages=========================== -->
+<message-resources parameter="Resources" />
+</struts-config>

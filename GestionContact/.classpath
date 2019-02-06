@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jst.servlet.ui.infopop_1.0.500.v201105121947.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jst.servlet.ui_1.1.921.v201802201739.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jetty.servlet.source_9.4.11.v20180605.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jetty.servlet_9.4.11.v20180605.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.equinox.http.servlet.source_1.5.100.v20180904-1442.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.equinox.http.servlet_1.5.100.v20180904-1442.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/javax.servlet.jsp.source_2.2.0.v201112011158.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/javax.servlet.jsp_2.2.0.v201112011158.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/javax.servlet.source_3.1.0.v201410161800.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/javax.servlet_3.1.0.v201410161800.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.wst.jsdt.web.support.jsp_1.1.0.v201802171654.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jst.jsp.core_1.3.0.v201805022013.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jst.jsp.ui.infopop_1.0.200.v201711201733.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jst.jsp.ui_1.2.100.v201807252207.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.jst.pagedesigner.jsp.core_1.5.102.v201803271721.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.equinox.jsp.jasper.registry.source_1.1.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.equinox.jsp.jasper.registry_1.1.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.equinox.jsp.jasper.source_1.1.100.v20180827-1235.jar"/>
+	<classpathentry kind="lib" path="D:/Bureau/eclipse/plugins/org.eclipse.equinox.jsp.jasper_1.1.100.v20180827-1235.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
