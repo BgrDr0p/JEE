@@ -60,9 +60,9 @@ CREATE TABLE IF NOT EXISTS `contact` (
 --
 
 INSERT INTO `contact` (`id`, `nom`, `prenom`, `email`, `numTel`, `rue`, `ville`, `pays`) VALUES
-(1, 'Baghrar', 'El Hassan', 'elhassanbaghrar@hotmail.fr', '0612345678', 'Lucien Jeannin', 'La Garenne-Colombes', 'France'),
-(5, 'Viera', 'Dorian', 'DorianViera@gmail.com', '0612345678', '9 rue de la liberté', 'Sarcelles', 'France'),
-(6, 'Paul', 'Martin', 'PaulMartin@gmail.com', '0232271548', '6 rue Cappeville', 'La Garenne-Colombes', 'France'),
+(1, 'Baghrar', 'El Hassan', 'testbaghrar@hotmail.fr', '0612345678', 'République', 'Paris', 'France'),
+(5, 'Viera', 'Dorian', 'Viera@gmail.com', '0612345678', '9 rue de la liberté', 'Sarcelles', 'France'),
+(6, 'Paul', 'Martin', 'PaulMartin@gmail.com', '02322', '6 rue Cappeville', 'La Garenne-Colombes', 'France'),
 (7, 'curry', 'Stephen', 'curry@aol.fr', '086425251', 'de la porte', 'Nanterre', 'France'),
 (9, 'samy', 'manu', 'A@elisse.Fr', '0033', '6 rue', 'france', 'france');
 
